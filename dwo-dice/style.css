@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-image: url(backgroundImage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(60, 60, 60);
+}
+h1{
+    padding: 20px;
+    color:darkslategrey;
+    font-size: 50px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgba(255, 99, 71);
+    border-radius: 50%;
+}
+.game-container{
+    max-width: 500px;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 0 62px rgba (0,0,0,0.1);
+    padding: 0 29px;
+}
+
+.dice-container{
+    height: 80%;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+.score{
+    padding-top: 30px;
+    font-size: 34px;
+    padding-top: 20px;
+}
+.queue-roll { 
+    text-align: center;
+    font-size: 34px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
